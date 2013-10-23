@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.jt.dispatchtouchevent.FirstGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.jt.dispatchtouchevent.SecondGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.jt.dispatchtouchevent.Child
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher" />
+        </com.jt.dispatchtouchevent.SecondGroup>
+    </com.jt.dispatchtouchevent.FirstGroup>
+
+</RelativeLayout>
